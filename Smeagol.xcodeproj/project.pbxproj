@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2914E9B1DD6ABD200017A90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2914E9A1DD6ABD200017A90 /* AppDelegate.m */; };
+		A2914E9E1DD6ABD200017A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2914E9D1DD6ABD200017A90 /* main.m */; };
+		A2914EA01DD6ABD200017A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2914E9F1DD6ABD200017A90 /* Assets.xcassets */; };
+		A2914EA31DD6ABD200017A90 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2914EA11DD6ABD200017A90 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2914E961DD6ABD200017A90 /* Smeagol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smeagol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2914E991DD6ABD200017A90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2914E9A1DD6ABD200017A90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2914E9D1DD6ABD200017A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2914E9F1DD6ABD200017A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2914EA21DD6ABD200017A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A2914EA41DD6ABD200017A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2914E931DD6ABD200017A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2914E8D1DD6ABD200017A90 = {
+			isa = PBXGroup;
+			children = (
+				A2914E981DD6ABD200017A90 /* Smeagol */,
+				A2914E971DD6ABD200017A90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2914E971DD6ABD200017A90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2914E961DD6ABD200017A90 /* Smeagol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2914E981DD6ABD200017A90 /* Smeagol */ = {
+			isa = PBXGroup;
+			children = (
+				A2914E991DD6ABD200017A90 /* AppDelegate.h */,
+				A2914E9A1DD6ABD200017A90 /* AppDelegate.m */,
+				A2914E9F1DD6ABD200017A90 /* Assets.xcassets */,
+				A2914EA11DD6ABD200017A90 /* MainMenu.xib */,
+				A2914EA41DD6ABD200017A90 /* Info.plist */,
+				A2914E9C1DD6ABD200017A90 /* Supporting Files */,
+			);
+			path = Smeagol;
+			sourceTree = "<group>";
+		};
+		A2914E9C1DD6ABD200017A90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2914E9D1DD6ABD200017A90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2914E951DD6ABD200017A90 /* Smeagol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2914EA71DD6ABD200017A90 /* Build configuration list for PBXNativeTarget "Smeagol" */;
+			buildPhases = (
+				A2914E921DD6ABD200017A90 /* Sources */,
+				A2914E931DD6ABD200017A90 /* Frameworks */,
+				A2914E941DD6ABD200017A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smeagol;
+			productName = Smeagol;
+			productReference = A2914E961DD6ABD200017A90 /* Smeagol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2914E8E1DD6ABD200017A90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PhysicsTeam398;
+				TargetAttributes = {
+					A2914E951DD6ABD200017A90 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A2914E911DD6ABD200017A90 /* Build configuration list for PBXProject "Smeagol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2914E8D1DD6ABD200017A90;
+			productRefGroup = A2914E971DD6ABD200017A90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2914E951DD6ABD200017A90 /* Smeagol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2914E941DD6ABD200017A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2914EA01DD6ABD200017A90 /* Assets.xcassets in Resources */,
+				A2914EA31DD6ABD200017A90 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2914E921DD6ABD200017A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2914E9E1DD6ABD200017A90 /* main.m in Sources */,
+				A2914E9B1DD6ABD200017A90 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2914EA11DD6ABD200017A90 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2914EA21DD6ABD200017A90 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2914EA51DD6ABD200017A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2914EA61DD6ABD200017A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2914EA81DD6ABD200017A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Smeagol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CollegeOfWooster.Smeagol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2914EA91DD6ABD200017A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Smeagol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CollegeOfWooster.Smeagol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2914E911DD6ABD200017A90 /* Build configuration list for PBXProject "Smeagol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2914EA51DD6ABD200017A90 /* Debug */,
+				A2914EA61DD6ABD200017A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2914EA71DD6ABD200017A90 /* Build configuration list for PBXNativeTarget "Smeagol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2914EA81DD6ABD200017A90 /* Debug */,
+				A2914EA91DD6ABD200017A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2914E8E1DD6ABD200017A90 /* Project object */;
+}
