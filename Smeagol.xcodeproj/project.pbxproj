@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2914E9B1DD6ABD200017A90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2914E9A1DD6ABD200017A90 /* AppDelegate.m */; };
 		A2914E9E1DD6ABD200017A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2914E9D1DD6ABD200017A90 /* main.m */; };
 		A2914EA01DD6ABD200017A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2914E9F1DD6ABD200017A90 /* Assets.xcassets */; };
 		A2914EA31DD6ABD200017A90 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2914EA11DD6ABD200017A90 /* MainMenu.xib */; };
+		A2914EAC1DD6ACA900017A90 /* Smeagol.M in Sources */ = {isa = PBXBuildFile; fileRef = A2914EAB1DD6ACA900017A90 /* Smeagol.M */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2914E961DD6ABD200017A90 /* Smeagol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smeagol.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2914E991DD6ABD200017A90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A2914E9A1DD6ABD200017A90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A2914E9D1DD6ABD200017A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2914E9F1DD6ABD200017A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2914EA21DD6ABD200017A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A2914EA41DD6ABD200017A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2914EAA1DD6ACA900017A90 /* Smeagol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smeagol.h; sourceTree = "<group>"; };
+		A2914EAB1DD6ACA900017A90 /* Smeagol.M */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = Smeagol.M; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,10 @@
 		A2914E981DD6ABD200017A90 /* Smeagol */ = {
 			isa = PBXGroup;
 			children = (
-				A2914E991DD6ABD200017A90 /* AppDelegate.h */,
-				A2914E9A1DD6ABD200017A90 /* AppDelegate.m */,
 				A2914E9F1DD6ABD200017A90 /* Assets.xcassets */,
 				A2914EA11DD6ABD200017A90 /* MainMenu.xib */,
+				A2914EAA1DD6ACA900017A90 /* Smeagol.h */,
+				A2914EAB1DD6ACA900017A90 /* Smeagol.M */,
 				A2914EA41DD6ABD200017A90 /* Info.plist */,
 				A2914E9C1DD6ABD200017A90 /* Supporting Files */,
 			);
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2914EAC1DD6ACA900017A90 /* Smeagol.M in Sources */,
 				A2914E9E1DD6ABD200017A90 /* main.m in Sources */,
-				A2914E9B1DD6ABD200017A90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
